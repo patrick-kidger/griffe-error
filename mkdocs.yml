@@ -1,0 +1,12 @@
+site_name: Foo
+
+plugins:
+    - mkdocstrings:
+        handlers:
+            python:
+                options:
+                    force_inspection: true
+                    inherited_members: true
+
+nav:
+    - 'foo.md'
