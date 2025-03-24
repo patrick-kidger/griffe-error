@@ -1,6 +1,7 @@
 site_name: Foo
 
 plugins:
+    - hippogriffe
     - mkdocstrings:
         handlers:
             python:
